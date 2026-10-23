@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Raw SEC cache (regenerable via scripts/fetch_sec_data.py; kept out of the repo to stay lean)
+task-1-financial-analysis/raw_sec_data/
+
+# Stray duplicate at repo root (locked copy from local Excel session)
+/financial_data.xlsx
+
+# Temp
+*.tmp
+.remote_readme_b64.txt
+
+# Excel lock files
+~$*
+
